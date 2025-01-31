@@ -8,3 +8,56 @@
 body {
   background-color: black;
 }
+
+.App {
+  max-width: 550px;
+  height: 704px;
+  margin: auto;
+  background-color: azure;
+}
+
+Header {
+  max-width: 550px;
+  height: 55px;
+  background-color: #f55a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.title {
+  padding-left: 3px;
+}
+
+.Place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+}
+
+.sidetext {
+  text-align: left;
+  font-size: 0.8rem;
+  margin: 15px;
+  padding: 0;
+}
+
+.Mountain {
+  width: 128px;
+  height: 168px;
+}
+.location > img {
+  padding-right: 5px;
+  width: 7px;
+}
+
+h1,
+h5,
+p {
+  margin: 3px 0;
+  padding: 2px;
+}
