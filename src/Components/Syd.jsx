@@ -20,7 +20,13 @@ export default function Syd(props) {
             />
             <span>
               <p className="country">{props.Data.country}</p>{" "}
-              <a href={props.Data.pin}>View on Google Maps</a>
+              <a
+                href={props.Data.pin}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on Google Maps
+              </a>
             </span>
           </div>
 

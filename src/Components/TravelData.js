@@ -17,7 +17,7 @@ export default [
     img: " ../src/assets/images/Sydney.png",
     alt: "Sydney bridge",
     country: "AUSTRALIA",
-    pin: "#",
+    pin: "https://www.google.com/maps?q=Sydney+Opera+House",
     locationPlace: "Sydney Opera House",
     date: "27 May,2023 - 8 Jun, 2023",
     sidetext:
@@ -30,7 +30,7 @@ export default [
     img: "../src/assets/images/Geiranger.png",
     alt: "Fjord River",
     country: "NORWAY",
-    pin: "#",
+    pin: "https://www.google.com/maps?q=Geirangerfjord",
     locationPlace: "Geirangerfjord",
     date: "01 Oct, 2024 - 18 Nov, 2024",
     sidetext:
