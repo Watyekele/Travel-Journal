@@ -1,17 +1,13 @@
-export default function Geiranger({
-  img,
-  alt,
-  country,
-  pin,
-  locationPlace,
-  date,
-  sidetext,
-}) {
+import TravelData from "./TravelData";
+
+export default function Syd(props) {
+  console.log(props);
+
   return (
     <div>
       <div className="Place">
         <div className="Image-container">
-          <img src={img} alt={alt} className="Mountain" />
+          <img src={props.Data.img} alt={props.Data.alt} className="Mountain" />
         </div>
 
         <div className="sidetext">
@@ -23,14 +19,14 @@ export default function Geiranger({
               width="10px"
             />
             <span>
-              {country}
-              <a href={pin}>View on Google Maps</a>
+              <p className="country">{props.Data.country}</p>{" "}
+              <a href={props.Data.pin}>View on Google Maps</a>
             </span>
           </div>
 
-          <h1>{locationPlace}</h1>
-          <h5>{date}</h5>
-          <p>{sidetext}</p>
+          <h1>{props.Data.locationPlace}</h1>
+          <h5>{props.Data.date}</h5>
+          <p>{props.Data.sidetext}</p>
         </div>
       </div>
     </div>

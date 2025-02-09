@@ -7,23 +7,28 @@
 
 body {
   background-color: black;
+  font: inter, san-serif;
 }
 
 .App {
   max-width: 550px;
-  height: 704px;
+  min-height: 700px;
   margin: auto;
   background-color: azure;
+  border-radius: 30px;
 }
 
 Header {
   max-width: 550px;
-  height: 55px;
+  height: 45px;
   background-color: #f55a5a;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  margin: 20px 0 30px 0;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .title {
@@ -34,21 +39,33 @@ Header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 15px;
+  margin: 15px 25px;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.342);
 }
 
 .sidetext {
+  max-width: 65%;
   text-align: left;
   font-size: 0.8rem;
   margin: 15px;
   padding: 0;
 }
 
+a {
+  color: rgba(128, 128, 128, 0.981);
+}
+.Image-container {
+  min-width: 125px;
+  height: 178px;
+  overflow: hidden;
+  padding: 3px;
+}
 .Mountain {
-  width: 128px;
-  height: 168px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  flex-shrink: 0;
 }
 .location > img {
   padding-right: 5px;
@@ -58,6 +75,18 @@ Header {
 h1,
 h5,
 p {
-  margin: 3px 0;
+  margin: 5px 0;
   padding: 2px;
+}
+
+.Rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 15px;
+  color: rgba(254, 192, 255, 0.923);
+}
+.country {
+  display: inline;
+  padding-right: 10px;
 }
