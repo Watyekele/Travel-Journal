@@ -13,11 +13,7 @@ export default function Syd(props) {
         <div className="sidetext">
           <div className="location">
             {" "}
-            <img
-              src="../src/assets/images/Fill 219.png"
-              alt="location-logo"
-              width="10px"
-            />
+            <img src="/images/Fill 219.png" alt="location-logo" width="10px" />
             <span>
               <p className="country">{props.Data.country}</p>{" "}
               <a

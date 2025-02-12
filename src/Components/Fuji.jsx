@@ -17,11 +17,7 @@ export default function Fuji({
         <div className="sidetext">
           <div className="location">
             {" "}
-            <img
-              src="../src/assets/images/Fill 219.png"
-              alt="Location-logo"
-              width="10px"
-            />
+            <img src="/images/Fill 219.png" alt="Location-logo" width="10px" />
             <span>
               {country} <a href={pin}>View on Google Maps</a>
             </span>

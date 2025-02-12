@@ -1,7 +1,7 @@
 export default [
   {
     id: "1",
-    img: "../src/assets/images/Fuji.png",
+    img: "/images/Fuji.png",
     alt: "Fuji Mountain",
     country: "JAPAN",
     pin: "https://maps.google.com/?q=Mount+Fuji",
@@ -14,7 +14,7 @@ export default [
   {
     id: "2",
 
-    img: " ../src/assets/images/Sydney.png",
+    img: " /images/Sydney.png",
     alt: "Sydney bridge",
     country: "AUSTRALIA",
     pin: "https://www.google.com/maps?q=Sydney+Opera+House",
@@ -27,7 +27,7 @@ export default [
   {
     id: "3",
 
-    img: "../src/assets/images/Geiranger.png",
+    img: "/images/Geiranger.png",
     alt: "Fjord River",
     country: "NORWAY",
     pin: "https://www.google.com/maps?q=Geirangerfjord",
