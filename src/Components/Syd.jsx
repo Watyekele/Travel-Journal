@@ -9,11 +9,11 @@ export default function Syd(props) {
           <img
             src={props.Data.img}
             alt={props.Data.alt}
-            className="Mountain mr-2 min-h-12 p-0"
+            className="Mountain mr-2 min-h-20 max-w-80 p-0"
           />
         </div>
 
-        <div className="sidetext max-w-60 text-left text-xm  mx-2 min-h-10 items-center">
+        <div className="sidetext max-w-100 text-left text-xm  mx-2 min-h-10 items-center">
           <span className="location flex gap-2 items-center  justify-left">
             {" "}
             <img src="/images/Fill 219.png" alt="location-logo" width="10px" />
@@ -28,7 +28,7 @@ export default function Syd(props) {
             </a>
           </span>
 
-          <h1 className="name text-left font-semibold text-base mb-4">
+          <h1 className="name text-left font-semibold text-xl mb-2">
             {props.Data.locationPlace}
           </h1>
           <h5 className="date font-semibold mb-2">{props.Data.date}</h5>
