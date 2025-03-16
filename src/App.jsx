@@ -12,7 +12,7 @@ function App() {
   });
 
   return (
-    <div className="App max-w-120 p-2rem text-center mx-auto border bg-gray-300 text-black ">
+    <div className="App max-w-140 p-2rem text-center mx-auto border bg-gray-300 text-black ">
       <Header />
       {JournalElements}
     </div>

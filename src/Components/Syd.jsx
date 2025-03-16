@@ -4,7 +4,7 @@ import React from "react";
 export default function Syd(props) {
   return (
     <>
-      <div className="Place my-8 mx-4 flex flex-row items-center gap-4 text-xs">
+      <div className="Place my-8 mx-4 flex flex-row items-center gap-2 text-xs">
         <div className="Image-container max-w-80 max-h-80">
           <img
             src={props.Data.img}
@@ -13,7 +13,7 @@ export default function Syd(props) {
           />
         </div>
 
-        <div className="sidetext max-w-80 text-left text-xm  mx-2 min-h-10 items-center">
+        <div className="sidetext min-w-70 text-left text-xm  mx-2 min-h-10 items-center">
           <span className="location flex gap-2 items-center  justify-left">
             {" "}
             <img src="/images/Fill 219.png" alt="location-logo" width="10px" />
