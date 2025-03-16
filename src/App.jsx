@@ -1,7 +1,9 @@
 import { useState } from "react";
+import React from "react";
 import Header from "./Components/Header";
 import Syd from "./Components/Syd";
 import "./App.css";
+
 import TravelData from "./Components/TravelData";
 
 function App() {
@@ -9,10 +11,8 @@ function App() {
     return <Syd key={Data.id} Data={Data} />;
   });
 
-  console.log(JournalElements);
-
   return (
-    <div className="App">
+    <div className="App max-w-120 p-2rem text-center mx-auto border bg-gray-300 text-black ">
       <Header />
       {JournalElements}
     </div>
