@@ -13,7 +13,7 @@ export default function Syd(props) {
           />
         </div>
 
-        <div className="sidetext max-w-100 text-left text-xm  mx-2 min-h-10 items-center">
+        <div className="sidetext max-w-80 text-left text-xm  mx-2 min-h-10 items-center">
           <span className="location flex gap-2 items-center  justify-left">
             {" "}
             <img src="/images/Fill 219.png" alt="location-logo" width="10px" />
