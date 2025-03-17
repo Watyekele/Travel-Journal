@@ -4,7 +4,7 @@ import React from "react";
 export default function Syd(props) {
   return (
     <>
-      <div className="Place my-8 mx-4 flex flex-col md:flex-row items-center gap-2 text-xs">
+      <div className="Place my-8 mx-4 flex flex-col sm:flex-row items-center gap-2 text-xs">
         <div className="Image-container w-1/3 sm:w-1/4">
           <img
             src={props.Data.img}
