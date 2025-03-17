@@ -5,11 +5,11 @@ export default function Syd(props) {
   return (
     <>
       <div className="Place my-8 mx-4 flex flex-col sm:flex-row items-center gap-2 text-xs">
-        <div className="Image-container w-full sm:w-1/4">
+        <div className="Image-container w-1/2 sm:w-1/4">
           <img
             src={props.Data.img}
             alt={props.Data.alt}
-            className="Mountain w-full max-w-full h-auto"
+            className="Mountain  max-w-full h-auto"
           />
         </div>
 
