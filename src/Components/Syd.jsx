@@ -4,16 +4,16 @@ import React from "react";
 export default function Syd(props) {
   return (
     <>
-      <div className="Place my-8 mx-4 flex flex-row items-center gap-2 text-xs">
-        <div className="Image-container max-w-80 max-h-80">
+      <div className="Place my-8 mx-4 flex flex-col md:flex-row items-center gap-2 text-xs">
+        <div className="Image-container w-1/3 sm:w-1/4">
           <img
             src={props.Data.img}
             alt={props.Data.alt}
-            className="Mountain mr-2 min-h-20 max-w-80 p-0"
+            className="Mountain max-w-full h-auto"
           />
         </div>
 
-        <div className="sidetext min-w-70 text-left text-xm  mx-2 min-h-10 items-center">
+        <div className="sidetext w-full text-left text-xs sm:text-sm md:text-base mx-2 flex-1">
           <span className="location flex gap-2 items-center  justify-left">
             {" "}
             <img src="/images/Fill 219.png" alt="location-logo" width="10px" />
@@ -32,7 +32,7 @@ export default function Syd(props) {
             {props.Data.locationPlace}
           </h1>
           <h5 className="date font-semibold mb-2">{props.Data.date}</h5>
-          <p className="max-w-[95%] whitespace-normal ">
+          <p className="w-full max-w-full break-words whitespace-normal text-sm sm:text-base ">
             {props.Data.sidetext}
           </p>
         </div>
