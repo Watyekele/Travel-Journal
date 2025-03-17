@@ -32,7 +32,9 @@ export default function Syd(props) {
             {props.Data.locationPlace}
           </h1>
           <h5 className="date font-semibold mb-2">{props.Data.date}</h5>
-          <p className="max-w-[95%] ">{props.Data.sidetext}</p>
+          <p className="max-w-[95%] whitespace-normal ">
+            {props.Data.sidetext}
+          </p>
         </div>
       </div>
     </>
